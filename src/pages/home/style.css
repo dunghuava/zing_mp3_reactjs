@@ -1,0 +1,59 @@
+@import url(../../components/css/appstyle.css);
+
+.z-dark .item-category{
+    color: #ffffff;
+    margin: 0px 0px 25px 0px;
+    padding: 0px 10px;
+    outline: none !important;
+    cursor: pointer;
+}
+.z-dark .name-category{
+    color: #ffffff;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.z-dark .item-category .author-name{
+    font-size: 11px;
+    color: #ccc;
+}
+.img-content img{
+    transition: all 0.3s;
+}
+.img-content{
+    width: 206px;
+    height: 206px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 5px 0px;
+}
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(136, 136, 133, 0.8);
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 4px;
+    transition: all 0.2s;
+    text-align: center;
+    line-height: 205px;
+}
+.img-content:hover .img-overlay{
+    opacity: 1;
+}
+.img-content:hover img{
+    transform: scale(1.16);
+}
+.img-overlay span::after{
+    content: '';
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    position: absolute;
+    border-radius: 50%;
+    left: 40%;
+    top: 40%;
+}

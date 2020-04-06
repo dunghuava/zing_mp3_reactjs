@@ -1,0 +1,49 @@
+@import url(../../components/css/appstyle.css);
+.btn-play-all{
+  background: #886BE3;
+  color: #ffffff;
+  font-size: 11px;  
+}
+.z-item-view{
+  margin: 10px 0px;
+  padding: 8px;
+  cursor: pointer;
+}
+.z-item-view:hover{
+  background: #232323;
+}
+.z-item-view .option-item-view{
+  text-align: right;
+}
+.option-item-view span{
+  margin: 10px 0px 0px 25px;
+  font-size: 14px;
+}
+.z-item-view .times-toltal{
+  color: #a0a0a0;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.z-item-view .option-name{
+  float: left;
+}
+.z-item-view .option-name img{
+  width: 44px;
+  border-radius: 5px;
+  margin-right: 10px;
+  float: left;
+}
+.z-item-view .option-name .option-ms-name{
+  float: left;
+}
+.m-auth{
+  color: #a0a0a0;
+  font-size: 12px;
+}
+.row-index{
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
