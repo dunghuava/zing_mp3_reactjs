@@ -7,7 +7,7 @@
     "cra-template": "1.0.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "popper.js": "^1.16.1",
     "react": "^16.0.0",
     "react-dom": "^16.13.0",
